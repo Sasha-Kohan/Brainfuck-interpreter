@@ -1,0 +1,7 @@
+new a
+a := 6
+new b
+b := 3
+new c
+c := a / b
+output(c)
