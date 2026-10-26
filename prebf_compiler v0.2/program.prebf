@@ -1,0 +1,12 @@
+// Example: read two numbers, add them, and branch on equality.
+new a
+new b
+new c
+input a
+input b
+c := a + b
+print c
+if a == b
+	print a
+else
+	print b
