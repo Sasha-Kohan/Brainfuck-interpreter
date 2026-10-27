@@ -1,0 +1,18 @@
+// preBF v0.3 example: expressions, signed comparisons, while and for.
+new a = 16*2 + 1
+new b
+input b
+new sum = a + b
+print sum
+if b == a:
+	print a
+else if b < a:
+	print b
+else:
+	print a
+new i = 0
+while i < 2:
+	print i
+	i++
+for (i = 0; i < 2; i++):
+	print i
