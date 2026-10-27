@@ -1,0 +1,14 @@
+// preBF v0.4 type, pair, and array example
+new int a = 5, b = 7, sum = a + b
+new bool equal = a == b
+new char letter = 'R'
+new pair<int, char> p = {67, 'Y'}
+new int numbers[6]
+numbers[5] = sum
+print sum
+print equal
+print letter
+print p.first
+print p.second
+print numbers[5]
+print numbers.size()
